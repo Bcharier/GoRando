@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GoRando - Nous contacter</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav class="desktop-nav">
+			<ul>
+				<li class="nav-link">
+					<a href="index.html#trip-section">Nos voyages</a>
+				</li>
+				<li class="nav-link">
+					<a href="index.html#service-section"> Nos prestations</a>
+				</li>
+				<li>
+					<a href="index.html"
+						><img
+							class="logo-brand"
+							src="./Assets/logos/logo_transparent.png"
+							alt="Logo de l'agence GoRando"
+						/>
+					</a>
+				</li>
+				<li class="nav-link">
+					<a href="index.html#price-section"> Nos tarifs</a>
+				</li>
+				<li class="nav-link">
+					<a href="#"> Nous contacter</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="header-mobile">
+			<i class="fas fa-bars mobile-hamburger"></i>
+			<a href="index.html#body"
+				><img
+					class="logo-brand-mobile"
+					src="./Assets/logos/logo_transparent.png"
+					alt="Logo de l'agence GoRando"
+				/>
+			</a>
+		</div>
+
+		<nav class="mobile-nav">
+			<a href="index.html#body"
+				><img
+					class="logo-brand-mobile-nav"
+					src="./Assets/logos/logo_transparent.png"
+					alt="Logo de l'agence GoRando"
+				/>
+			</a>
+
+			<i class="fas fa-times mobile-cross"></i>
+			<ul>
+				<li>
+					<a href="index.html#trip-section" class="mobile-nav-links"
+						>Nos voyages</a
+					>
+				</li>
+				<li>
+					<a href="index.html#service-section" class="mobile-nav-links"
+						>Nos prestations</a
+					>
+				</li>
+				<li>
+					<a href="index.html#price-section" class="mobile-nav-links"
+						>Nos tarifs</a
+					>
+				</li>
+				<li>
+					<a href="#" class="mobile-nav-links">Nous contacter</a>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<section class="contact-section">
+				<p class="contact-text">
+					Une demande de devis, une reqûete spécifique ou simplement une
+					question à nous poser ?
+				</p>
+				<p class="contact-text">
+					Envoyez-nous un message, nous vous répondrons au plus vite !
+				</p>
+				<form action="">
+					<div class="form-input">
+						<label for="name"
+							>Nom et prénom <span class="red-star">&#42;</span></label
+						>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							placeholder="Votre nom et prénom"
+							required
+						/>
+					</div>
+					<div class="form-input">
+						<label for="email"
+							>Adresse mail <span class="red-star">&#42;</span></label
+						>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Votre adresse mail"
+							required
+						/>
+					</div>
+					<div class="form-input">
+						<label for="message"
+							>Votre message <span class="red-star">&#42;</span></label
+						>
+						<textarea
+							name="message"
+							id="message"
+							placeholder="Votre message"
+							rows="8"
+							required
+						></textarea>
+					</div>
+					<button type="button" class="button-form">Envoyez</button>
+				</form>
+			</section>
+		</main>
+		<footer class="footer-contact">
+			<a href="#" class="footer-links">Conditions générales de vente</a
+			><a href="#" class="footer-links">Mentions légales</a>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
